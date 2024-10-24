@@ -11,6 +11,8 @@ def dialog_with_user(request: str, *var_request):
             print('Answer "yes" if the number is even, otherwise answer "no".')
         case 'rules_calc':
             print('What is the result of the expression?')
+        case 'rules_gcd':
+            print('Find the greatest common divisor of given numbers.')
         case 'question':
             print(f'Question: {var_request[0]}')
         case 'answer':
@@ -45,6 +47,23 @@ def is_wrong_for_calc(string_for_ask: int, answer: str, name: str):
     if answer != str(string_for_ask):
         wrong_answer = answer
         correct_answer = string_for_ask
+        dialog_with_user('wrong', wrong_answer, correct_answer, name)
+        return True
+    else:
+        return False
+
+
+def is_wrong_for_gcd(string_for_ask: tuple, answer: str, name: str):
+    min_number = min(string_for_ask)
+    max_number = max(string_for_ask)
+    dividers = list(range(min_number, 0, -1))
+    divider = 0
+    for divider in dividers:
+        if min_number % divider == 0 and max_number % divider == 0:
+            break
+    if answer != str(divider):
+        wrong_answer = answer
+        correct_answer = divider
         dialog_with_user('wrong', wrong_answer, correct_answer, name)
         return True
     else:
