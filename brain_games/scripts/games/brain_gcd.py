@@ -5,16 +5,16 @@ from random import randint
 
 
 def main():
-    play_counter = 0
+    play_counter: int = 0
     dialog_with_user('welcome')
-    name = dialog_with_user('hellow')
-    dialog_with_user('rules')
+    name: str = dialog_with_user('hellow')
+    dialog_with_user('rules_gcd')
     while play_counter < 3:
-        num1_for_ask = randint(0, 100)
-        num2_for_ask = randint(0, 100)
-        string_for_ask = f'{num1_for_ask } {num2_for_ask}'
+        num1_for_ask: int = randint(0, 100)
+        num2_for_ask: int = randint(0, 100)
+        string_for_ask: str = f'{num1_for_ask } {num2_for_ask}'
         dialog_with_user('question', string_for_ask)
-        answer = dialog_with_user('answer')
+        answer: str = dialog_with_user('answer')
         if is_wrong_for_gcd((num1_for_ask, num2_for_ask), answer, name):
             return
         play_counter += 1
