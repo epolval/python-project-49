@@ -5,7 +5,7 @@ def dialog_with_user(request: str, *var_request):
             print('Welcome to the Brain Games!')
         case 'hellow':
             name = prompt.string('May I have your name? ')
-            print(f'Hellow, {name}!')
+            print(f'Hello, {name}!')
             return name
         case 'rules_even':
             print('Answer "yes" if the number is even, otherwise answer "no".')
