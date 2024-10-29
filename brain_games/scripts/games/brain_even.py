@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-from games_lib.games_functions import dialog_with_user
-from games_lib.games_functions import is_wrong_for_even
+from games_functions import dialog_with_user
+from games_functions import is_wrong_for_even
 from random import randint
 
 
