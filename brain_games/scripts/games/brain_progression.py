@@ -22,7 +22,7 @@ def main():
                 gap_value = str(start_of_prog + (n - 1) * step_of_prog)
             else:
                 list_for_ask.append(str(start_of_prog + (n - 1) * step_of_prog))
-        string_for_ask: str = ', '.join(list_for_ask)
+        string_for_ask: str = ' '.join(list_for_ask)
         dialog_with_user('question', string_for_ask)
         answer = dialog_with_user('answer')
         if is_wrong_for_progression(gap_value, answer, name):

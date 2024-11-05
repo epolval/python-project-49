@@ -26,8 +26,8 @@ def dialog_with_user(request: str, *var_request):
         case 'correct':
             print('Correct!')
         case 'wrong':
-            print(f"{var_request[0]} is wrong answer;"
-                  f"(.Correct answer was {var_request[1]}.")
+            print(f"'{var_request[0]}' is wrong answer ;"
+                  f"(. Correct answer was '{var_request[1]}'.")
             print(f"Let's try again, {var_request[2]}!")
         case 'greeting':
             print(f'Congratulations, {var_request[0]}!')
