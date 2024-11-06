@@ -61,14 +61,13 @@ def is_wrong_for_calc(string_for_ask: int, answer: str, name: str):
 def is_wrong_for_gcd(string_for_ask: tuple, answer: str, name: str) -> bool:
     min_number: int = min(string_for_ask)
     max_number: int = max(string_for_ask)
-    dividers: list[int] = list(range(min_number, 0, -1))
-    divider: int = 0
-    for divider in dividers:
-        """
-        look for first common divider:
-        """
-        if min_number % divider == 0 and max_number % divider == 0:
-            break
+    if min_number == 0:
+        divider = max_number
+    else:
+        dividers: list[int] = list(range(min_number, 0, -1))
+        for divider in dividers:
+            if min_number % divider == 0 and max_number % divider == 0:
+                break
     if answer != str(divider):
         wrong_answer: str = answer
         correct_answer: str = str(divider)
