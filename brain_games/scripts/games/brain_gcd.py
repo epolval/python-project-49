@@ -12,7 +12,7 @@ def main():
     while play_counter < 3:
         num1_for_ask: int = randint(0, 100)
         num2_for_ask: int = randint(0, 100)
-        string_for_ask: str = f'{num1_for_ask } {num2_for_ask}'
+        string_for_ask: str = f'{num1_for_ask} {num2_for_ask}'
         dialog_with_user('question', string_for_ask)
         answer: str = dialog_with_user('answer')
         if is_wrong_for_gcd((num1_for_ask, num2_for_ask), answer, name):

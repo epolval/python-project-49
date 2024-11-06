@@ -14,7 +14,7 @@ def main():
         num1_for_ask: str = str(randint(0, 100))
         num2_for_ask: str = str(randint(0, 100))
         sign_for_ask: list[str] = choices('+-*')
-        string_for_ask = f'{num1_for_ask } {sign_for_ask[0]} {num2_for_ask}'
+        string_for_ask = f'{num1_for_ask} {sign_for_ask[0]} {num2_for_ask}'
         dialog_with_user('question', string_for_ask)
         answer: str = dialog_with_user('answer')
         if is_wrong_for_calc(eval(string_for_ask), answer, name):
