@@ -1,11 +1,17 @@
 # Проект "Игры разума"
 
 [![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://ru.hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=ru-test-assignments)
-В этом репозитории собраны 5 простых консольных игры:
+В этом репозитории собраны 5 простых консольных игр. 
+В начале каждой игры после приветствия, вам будет предложегно ввести свое имя. 
+В случае если вы трижды верно ответите на вопросы игры - вы победили. 
+Если вы дадите неверный ответ игра немедленно закончится и вам будет предложено сыграть еще раз.
+Правила каждой из игр описаны ниже.
 
 <details>
- <summary>Калькулятор (brain_calc)</summary>
-  программа предлагает вам решить простое выражение в случае 3-х правильных ответов подряд вас поздравят и игра закончится, в случае ошибки игра закончится сразу и вам будет предложено сыграть еще раз
+ <summary>"Калькулятор" (brain_calc)</summary>
+  Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
+
+ <summary>"Чет-нечет" (brain_even)</summary>
 </details> 
   ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/epolval/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/epolval/python-project-49/actions)
