@@ -1,3 +1,7 @@
+# Проект "Игры разума"
+
+[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://ru.hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=ru-test-assignments)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/epolval/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/epolval/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d09c7fb21da73098770/maintainability)](https://codeclimate.com/github/epolval/python-project-49/maintainability)
