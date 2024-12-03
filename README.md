@@ -10,12 +10,13 @@
 <details>
  <summary>"Калькулятор" (brain_calc)</summary>
   Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
-<details>
+<p></p>
+ <details>
  <summary>Пример успешно сыгранной сессии: </summary>
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
-<hr>
+<hr></hr>
 
 <details>
  <summary>"Чет-Нечет" (brain_even)</summary>
