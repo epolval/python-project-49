@@ -12,8 +12,9 @@
   Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
 <p></p>
  <details>
- <summary>Пример успешной игры "Калькулятор: </summary>
-  <p></p>
+    <summary>Пример успешной игры "Калькулятор: </summary>
+    <p></p>
+  
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
