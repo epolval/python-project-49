@@ -12,6 +12,7 @@
   Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
 <details>
  <summary>Пример успешно сыгранной сессии: </summary>
+ <script id="asciicast-KbrZvlJ0gAff8399X60H1NjuG" src="https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.js" async></script>
  [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
