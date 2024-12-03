@@ -42,8 +42,8 @@
 </details>
 <hr></hr>
 
-<summary>Пример успешной игры "Калькулятор: </summary>
-<p></p>
+  <summary>Пример успешной игры "Калькулятор: </summary>
+  <p></p>
 [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
 
   ### Hexlet tests and linter status:
@@ -51,10 +51,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d09c7fb21da73098770/maintainability)](https://codeclimate.com/github/epolval/python-project-49/maintainability)
 [![brain-even_defeat](https://asciinema.org/a/QwxVkXKBvOhxK61ZbMhE6pE4P.svg)](https://asciinema.org/a/QwxVkXKBvOhxK61ZbMhE6pE4P)
 [![brain-even_victory](https://asciinema.org/a/ma4AhI99viz7K0JlfUy6likNa.svg)](https://asciinema.org/a/ma4AhI99viz7K0JlfUy6likNa)
-
   <summary>"Чет-Нечет" (brain_even)</summary>
   <p>Игра на определение четных и нечетных чисел.</p>
-
 [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
 [![brain-gcd_defeat](https://asciinema.org/a/fqQz0PY60h6yDmJ1dwma5WlCr.svg)](https://asciinema.org/a/fqQz0PY60h6yDmJ1dwma5WlCr)
 [![brain-gcd_victory](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8.svg)](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8)
