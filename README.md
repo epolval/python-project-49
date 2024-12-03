@@ -50,6 +50,7 @@
 [![brain-even_defeat](https://asciinema.org/a/QwxVkXKBvOhxK61ZbMhE6pE4P.svg)](https://asciinema.org/a/QwxVkXKBvOhxK61ZbMhE6pE4P)
 [![brain-even_victory](https://asciinema.org/a/ma4AhI99viz7K0JlfUy6likNa.svg)](https://asciinema.org/a/ma4AhI99viz7K0JlfUy6likNa)
 <summary>Пример успешной игры "Калькулятор: </summary>
+<hr></hr>
 [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
 [![brain-gcd_defeat](https://asciinema.org/a/fqQz0PY60h6yDmJ1dwma5WlCr.svg)](https://asciinema.org/a/fqQz0PY60h6yDmJ1dwma5WlCr)
 [![brain-gcd_victory](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8.svg)](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8)
