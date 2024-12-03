@@ -12,7 +12,7 @@
   Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
 <p></p>
  <details>
- <summary>Пример успешно сыгранной сессии: </summary>
+ <summary>Пример успешной игры: </summary>
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
@@ -21,12 +21,25 @@
 <details>
  <summary>"Чет-Нечет" (brain_even)</summary>
   Программа предлагает определить, является ли предлагаемое число четным, если вы считаете, что число четное наберите "yes", если нечетным, наберите "no"  . В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
+<p></p>
+ <details>
+ <summary>Пример успешной игры: </summary>
+  [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
+ </details>
 </details>
+<hr></hr>
  
  <details>
- <summary>"Чет-Нечет" (brain_even)</summary>
-  Программа предлагает определить, является ли предлагаемое число четным, если вы считаете, что число четное наберите "yes", если нечетным, наберите "no"  . В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
+ <summary>"Наименьший общий делитель" (brain_gcd)</summary>
+  Программа предлагает определить наименьший общий делитель двух чисел. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
+<p></p>
+ <details>
+ <summary>Пример успешной игры: </summary>
+ [![brain-gcd_victory](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8.svg)](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8)
+ </details>
 </details>
+<hr></hr>
+
   ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/epolval/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/epolval/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d09c7fb21da73098770/maintainability)](https://codeclimate.com/github/epolval/python-project-49/maintainability)
