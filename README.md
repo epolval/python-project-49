@@ -15,6 +15,7 @@
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
+<hr>
 
 <details>
  <summary>"Чет-Нечет" (brain_even)</summary>
