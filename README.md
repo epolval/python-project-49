@@ -12,7 +12,7 @@
   Программа предлагает вам решить простое выражение. В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
 <p></p>
  <details>
- <summary>Пример успешной игры: </summary>
+ <summary>Пример успешной игры "Калькулятор: </summary>
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
@@ -40,6 +40,9 @@
  </details>
 </details>
 <hr></hr>
+
+<summary>Пример успешной игры "Калькулятор: </summary>
+  [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
 
   ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/epolval/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/epolval/python-project-49/actions)
