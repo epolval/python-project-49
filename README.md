@@ -22,6 +22,7 @@
  <summary>"Чет-Нечет" (brain_even)</summary>
   Программа предлагает определить, является ли предлагаемое число четным, если вы считаете, что число четное наберите "yes", если нечетным, наберите "no"  . В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
 <p></p>
+ [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  <details>
  <summary>Пример успешной игры: </summary>
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
