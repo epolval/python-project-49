@@ -27,6 +27,7 @@
  [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  <details>
  <summary>Пример успешной игры: </summary>
+  
   [![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
  </details>
 </details>
@@ -38,15 +39,27 @@
 <p></p>
  <details>
  <summary>Пример успешной игры: </summary>
+  
  [![brain-gcd_victory](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8.svg)](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8)
  </details>
 </details>
 <hr></hr>
 
-  <summary>Пример успешной игры "Калькулятор: </summary>
-  <p></p>
+<details>
+ <summary>"Простые числа" (brain_prime)</summary>
+  Программа предлагает определить является ли предоставленное число простым, т.е делящимся без остатка только на себя или на 1, если вы считаете, что число простое,
+ то наберите "yes" если число не является простым, наберите "no".
+ В случае 3-х правильных ответов подряд, вас поздравят, и игра закончится. В случае ошибки, игра закончится сразу и вам будет предложено сыграть еще раз.
+<p></p>
+ <details>
+ <summary>Пример успешной игры: </summary>
   
-[![brai-calc_victory](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG.svg)](https://asciinema.org/a/KbrZvlJ0gAff8399X60H1NjuG)
+ [![brain-gcd_victory](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8.svg)](https://asciinema.org/a/2USkyJzQhILvKUodeYNLr2zZ8)
+ </details>
+</details>
+<hr></hr>
+
+
 
   ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/epolval/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/epolval/python-project-49/actions)
