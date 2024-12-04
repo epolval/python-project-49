@@ -75,18 +75,19 @@
  [![brain-progression_victory](https://asciinema.org/a/ybRHleJe8rt0RJ5gjHUEdLVWd.svg)](https://asciinema.org/a/ybRHleJe8rt0RJ5gjHUEdLVWd)
  </details>
 </details>
+<hr></hr>
 <p></p>
 <p></p>
 
 <details>
  <summary>"Установка и запуск игр"</summary>
   После того как вы получили дистрибутив на свой компьютер выполните установку игр:
-Войдите в директорию /python-project-49</summary>
-Наберите на клавиатуре make build и нажмите клавишу "ENTER".
-Наберите на клавиатуре make package-install и нажмите клавишу "ENTER".
-Наберите на клавиатуре make install и нажмите клавишу "ENTER".
+  Войдите в директорию /python-project-49</summary>
+  Наберите на клавиатуре make build и нажмите клавишу "ENTER".
+  Наберите на клавиатуре make package-install и нажмите клавишу "ENTER".
+  Наберите на клавиатуре make install и нажмите клавишу "ENTER".
 <p></p>
-Можете начинать игру!:
+  Можете начинать игру!:
 </details>
 
 <p></p>
@@ -95,9 +96,9 @@
 <details>
  <summary>"Технологиии примененные при создании игры"</summary>
   После того как вы получили дистрибутив на свой компьютер выполните установку игр:
-Игра написана на языке программирования Python (version 3.10.12)
-Проверка кода выполнена с помощью flake8 
-Сборка пакета выполнена с помощью Poetry (version 1.8.3)
+  Игра написана на языке программирования Python (version 3.10.12)
+  Проверка кода выполнена с помощью flake8 
+  Сборка пакета выполнена с помощью Poetry (version 1.8.3)
 <p></p>
 Можете начинать игру!:
 </details>
