@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-from brain_games.games_functions import dialog_with_user
-from brain_games.games_functions import is_wrong_for_calc
-from random import randint
-from random import choices
+from random import choices, randint
+
+from brain_games.games_functions import dialog_with_user, is_wrong_for_calc
 
 
 def main():

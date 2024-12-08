@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from brain_games.games_functions import dialog_with_user
-from brain_games.games_functions import is_wrong_for_even
 from random import randint
+
+from brain_games.games_functions import dialog_with_user, is_wrong_for_even
 
 
 def main():
