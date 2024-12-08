@@ -31,5 +31,5 @@ brain-prime = "brain_games.scripts.games.brain_prime:main"
 src = ["games", "brain_games"]
 target-version = "py310"
 line-length = 88
-select = ["E", "F", "W", "I"]
-ignore = []
+lint.select = ["E", "F", "W", "I"]
+lint.ignore = []
