@@ -17,7 +17,10 @@ def run_prime():
             if number % divider == 0:
                 result = 'no'
                 break
-
+        if number <= 1:
+            result = 'no'
+        if number == 2 or number == 3:
+            result ='yes'
         correct_answer.append(result)
 
     run_game(ask_string, correct_answer, PRIME_INSTRUCTION)
