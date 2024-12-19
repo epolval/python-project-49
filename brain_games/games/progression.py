@@ -13,6 +13,7 @@ def run_progression():
         length = get_random(5, 15)
         gap_position = get_random(1, length)
         list_for_ask = []
+        gap_value = 0
 
         for n in range(1, length + 1):
             if n == gap_position:

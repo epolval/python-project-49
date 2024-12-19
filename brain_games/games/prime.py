@@ -6,6 +6,7 @@ from brain_games.utils import get_random
 def run_prime():
     ask_string = []
     correct_answer = []
+    result = ''
 
     for i in range(3):
         number = get_random(0, 100)

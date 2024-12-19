@@ -6,6 +6,7 @@ from brain_games.utils import get_random
 def run_gcd():
     ask_string = []
     correct_answer = []
+    gcd = 0
 
     for i in range(3):
         num1 = get_random(0, 100)
