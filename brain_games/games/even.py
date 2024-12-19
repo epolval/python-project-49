@@ -1,6 +1,6 @@
-from const import EVEN_INSTRUCTION
-from core import run_game
-from utils import get_random
+from brain_games.const import EVEN_INSTRUCTION
+from brain_games.core import run_game
+from brain_games.utils import get_random
 
 
 def run_even():

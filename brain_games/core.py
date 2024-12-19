@@ -1,4 +1,4 @@
-from utils import (
+from brain_games.utils import (
     ask_name_dialog,
     correct_dialog,
     finish_dialog,
