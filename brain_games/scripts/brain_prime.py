@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from games.prime import run_prime
+from brain_games.games.prime import run_prime
 
 
 def main():
