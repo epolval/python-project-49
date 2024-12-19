@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from cli import welcome_user
+from games.prime import run_prime
 
 
 def main():
-    welcome_user()
+    run_prime()
 
 
 if __name__ == '__main__':

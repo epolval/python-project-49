@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from cli import welcome_user
+from games.calc import run_calc
 
 
 def main():
-    welcome_user()
+    run_calc()
 
 
 if __name__ == '__main__':

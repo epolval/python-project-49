@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from cli import welcome_user
+from games.progression import run_progression
 
 
 def main():
-    welcome_user()
+    run_progression()
 
 
 if __name__ == '__main__':

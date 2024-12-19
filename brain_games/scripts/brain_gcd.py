@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from cli import welcome_user
+from games.gcd import run_gcd
 
 
 def main():
-    welcome_user()
+    run_gcd()
 
 
 if __name__ == '__main__':

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from cli import welcome_user
+from games.even import run_even
 
 
 def main():
-    welcome_user()
+    run_even()
 
 
 if __name__ == '__main__':
