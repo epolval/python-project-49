@@ -25,9 +25,9 @@ def correct_dialog():
 
 
 def finish_dialog(name, user_answer, correct_answer):
-        print(f"'{user_answer}' is wrong answer ;"
-              f"(. Correct answer was '{correct_answer}'.")
-        print(f"Let's try again, {name}!")
+    print(f"'{user_answer}' is wrong answer ;"
+          f"(. Correct answer was '{correct_answer}'.")
+    print(f"Let's try again, {name}!")
 
 
 def greeting_dialog(name):

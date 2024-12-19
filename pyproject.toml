@@ -31,5 +31,6 @@ brain-prime = "brain_games.scripts.brain_prime:main"
 src = ["games", "brain_games"]
 target-version = "py310"
 line-length = 88
-lint.select = ["E", "F", "W", "I"]
+lint.select = ["E", "F", "W", "I", "C"]
 lint.ignore = []
+fixable = ["E225", "E117"]

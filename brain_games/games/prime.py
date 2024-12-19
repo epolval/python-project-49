@@ -20,7 +20,7 @@ def run_prime():
         if number <= 1:
             result = 'no'
         if number == 2 or number == 3:
-            result ='yes'
+            result = 'yes'
         correct_answer.append(result)
 
     run_game(ask_string, correct_answer, PRIME_INSTRUCTION)
