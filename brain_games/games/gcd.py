@@ -4,8 +4,8 @@ from brain_games.utils import get_random
 def run_gcd():
     gcd = 0
 
-    num1 = get_random(0, 100)
-    num2 = get_random(0, 100)
+    num1 = get_random()
+    num2 = get_random()
     ask_string = f'{str(num1)} {str(num2)}'
     numbers = [num1, num2]
     numbers.sort()

@@ -2,7 +2,7 @@ from brain_games.utils import get_random
 
 
 def run_progression():
-    start_num = get_random(0, 100)
+    start_num = get_random()
     step = get_random(1, 10)
     length = get_random(5, 15)
     gap_position = get_random(1, length)

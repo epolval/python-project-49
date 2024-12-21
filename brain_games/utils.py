@@ -33,5 +33,5 @@ def greeting_dialog(name):
     print(f'Congratulations, {name}!')
 
 
-def get_random(start_value, finish_value):
+def get_random(start_value=0, finish_value=100):
     return randint(start_value, finish_value)

@@ -2,7 +2,7 @@ from brain_games.utils import get_random
 
 
 def run_even():
-    number_for_check = get_random(0, 100)
+    number_for_check = get_random()
     ask_string = str(number_for_check)
     result = 'yes' if number_for_check % 2 == 0 else 'no'
     correct_answer = result
