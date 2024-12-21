@@ -8,21 +8,19 @@ from brain_games.utils import (
 )
 
 
-def run_game(ask_string, correct_answer, instruction_string):
+def run_game(instruction_string, run_func):
     name = ask_name_dialog()
     instruction_dialog(instruction_string)
     for i in range(3):
-        user_answer = question_dialog(ask_string[i])
-        if not check_answer(user_answer, correct_answer[i], name):
+        ask_string, correct_answer = run_func()
+        user_answer = question_dialog(ask_string)
+        if user_answer != correct_answer:
+            finish_dialog(name, user_answer, correct_answer)
             return
-
-    greeting_dialog(name)
-
-
-def check_answer(user_answer, correct_answer, name):
-    if user_answer != correct_answer:
-        finish_dialog(name, user_answer, correct_answer)
-        return False
-    else:
         correct_dialog()
-        return True
+    greeting_dialog(name)
+    return
+
+
+
+
